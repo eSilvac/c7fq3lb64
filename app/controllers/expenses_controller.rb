@@ -8,7 +8,7 @@ class ExpensesController < ApplicationController
      		else
 	     		expenses_temporal.each do |temp|
 	     			concept = temp.concept.downcase
-	     			if concept.include? params[:concept]
+	     			if concept.include? params[:concept].downcase
 	     				@expenses << temp
 	     			end
 	     		end
@@ -23,7 +23,7 @@ class ExpensesController < ApplicationController
      		else
 	     		expenses_temporal.each do |temp|
 	     			concept = temp.concept.downcase
-	     			if concept.include? params[:concept]
+	     			if concept.include? params[:concept].downcase
 	     				@expenses << temp
 	     			end		
 	     		end
