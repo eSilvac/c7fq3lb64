@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -16,7 +16,8 @@ gem 'tzinfo-data'
 gem 'coffee-rails', '~> 4.1.0'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes      # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', platforms: :ruby      # gem 'therubyracer', platforms: :ruby
-
+gem 'devise'
+gem 'annotate'
 gem 'jquery-rails'
   # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks     # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'

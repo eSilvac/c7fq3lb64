@@ -25,7 +25,14 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Gastos <span class="sr-only">(current)</span></a></li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to destroy_user_session_path, :method => :delete, class:"button" do %>
+            <i class="glyphicon glyphicon-log-out"></i>&nbsp; Salir
+          <% end %>
+          </li>
+        </ul>
       </div><!-- /.navbar-collapse -->
+      
     </div><!-- /.container-fluid -->
   </nav>
 
